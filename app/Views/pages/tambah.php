@@ -18,7 +18,7 @@ if (session()->getFlashdata('pesan')) {
         <br>
         <input type="text" name="isi">
         <br>
-        <button type="submit">Simpan1</button>
+        <button type="submit">Simpan</button>
     </form>
     <script>
     $.ajax({
