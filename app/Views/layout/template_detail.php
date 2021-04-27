@@ -1,41 +1,39 @@
 <!doctype html>
 <html class="no-js" lang="">
 
-    
-<!-- Mirrored from www.radiustheme.com/demo/html/newsedge/newsedge/single-news-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Apr 2021 01:18:40 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>NewsEdge | News Details 1</title>
+        <title><?= $title ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="<?= base_url() ?>/Njerone/img/favicon.png">
         <!-- Normalize CSS -->
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/normalize.css">
         <!-- Main CSS -->
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/main.css">
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/bootstrap.min.css">
         <!-- Animate CSS -->
-        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/animate.min.css">
         <!-- Font-awesome CSS-->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/font-awesome.min.css">
         <!-- Owl Caousel CSS -->
-        <link rel="stylesheet" href="vendor/OwlCarousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendor/OwlCarousel/owl.theme.default.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/vendor/OwlCarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/vendor/OwlCarousel/owl.theme.default.min.css">
         <!-- Main Menu CSS -->
-        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/meanmenu.min.css">
         <!-- Magnific CSS -->
-        <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/Njerone/css/magnific-popup.css">
         <!-- Switch Style CSS -->
-        <link rel="stylesheet" href="css/hover-min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/hover-min.css">
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/style.css">
         <!-- For IE -->
-        <link rel="stylesheet" type="text/css" href="css/ie-only.css" />
+        <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/Njerone/css/ie-only.css" />
         <!-- Modernizr Js -->
-        <script src="js/modernizr-2.8.3.min.js"></script>
+        <script src="<?= base_url() ?>/Njerone/js/modernizr-2.8.3.min.js"></script>
     </head>
 
     <body>
@@ -52,6 +50,7 @@
         <div id="wrapper" class="wrapper">
             <!-- Header Area Start Here -->
             <header>
+                <input type="hidden" id="base_url_js" value="<?=base_url("Njerone/")?>">
                 <div id="header-layout1" class="header-style1">
                     <div class="main-menu-area bg-primarytextcolor header-menu-fixed" id="sticker">
                         <div class="container">
@@ -59,7 +58,7 @@
                                 <div class="col-lg-2 d-none d-lg-block">
                                     <div class="logo-area">
                                         <a href="index.html">
-                                            <img src="img/logo.png" alt="logo" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/logo.png" alt="logo" class="img-fluid">
                                         </a>
                                     </div>
                                 </div>
@@ -240,16 +239,16 @@
             </section>
             <!-- News Info List Area End Here -->
             <!-- Breadcrumb Area Start Here -->
-            <section class="breadcrumbs-area" style="background-image: url('img/banner/breadcrumbs-banner.jpg');">
+            <section class="breadcrumbs-area" style="background-image: url('<?= base_url() ?>/Njerone/img/banner/breadcrumbs-banner.jpg');">
                 <div class="container">
                     <div class="breadcrumbs-content">
-                        <h1>Business</h1>
+                        <h1><?= $tagnya ?></h1>
                         <ul>
                             <li>
-                                <a href="index.html">Home</a> -</li>
+                                <a href="<?=base_url()?>">Home</a> -</li>
                             <li>
-                                <a href="#">Business</a> -</li>
-                            <li>Single post style_01</li>
+                                <a href="#"><?= $tagnya ?></a> -</li>
+                            <li><?= $judul ?></li>
                         </ul>
                     </div>
                 </div>
@@ -261,67 +260,10 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-12 mb-30">
                             <div class="news-details-layout1">
-                                <div class="position-relative mb-30">
-                                    <img src="img/news/news177.jpg" alt="news-details" class="img-fluid">
-                                    <div class="topic-box-top-sm">
-                                        <div class="topic-box-sm color-cinnabar mb-20">Business</div>
-                                    </div>
-                                </div>
-                                <h2 class="title-semibold-dark size-c30">10 Hdrenaline fuelled activities that will chase the post summer blues away</h2>
-                                <ul class="post-info-dark mb-30">
-                                    <li>
-                                        <a href="#">
-                                            <span>By</span> Mark Willy</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-calendar" aria-hidden="true"></i>Jan 10, 2017</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-eye" aria-hidden="true"></i>202</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-comments" aria-hidden="true"></i>20</a>
-                                    </li>
-                                </ul>
-                                <p>Nmply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                    andard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                                    andser crambled it to make a type specimen book. It has survived not only five centuries,
-                                    but also the leap into electronic typesetting, remaining.</p>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of
-                                    a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
-                                    normal distrib ution of letters, as opposed to using 'Content here, content here', making
-                                    it look like readabl aree English. Many desktop publishing packages and web page editors
-                                    now use Lorem Ipsum s their default model text, and a search.</p>
-                                <img src="img/news/news178.jpg" alt="news-details" class="img-fluid pull-left mr-40 mb-15">
-                                <p>Nmply dummy text of the printing and typesetting ustry. Lorem Ipsum has been the industry's
-                                    stydedy andard dummy text ever since the, when new wwan printer took a galley of type
-                                    andsercrambled it toit make a type specimen book. It has survived anneyt only five centuries,
-                                    but also theleap into electro nic typesetting, remaining.</p>
-                                <p>It is a long established fact that a reader will be dist racted by the readable content of
-                                    a page when looking at its layout.</p>
-                                <blockquote cite="#" class="bg-accent mt-50 mb-50">
-                                    Srem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-                                    text ever since the 1500s. Lorem Ipsum is simply .
-                                </blockquote>
-                                <p>Nmply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                                    st andard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                                    andse aerr crambled it to make a type specimen book. It has survived not only five centuries,
-                                    but also they area leap into electronic typesetting, remaining.</p>
-                                <ul class="blog-tags item-inline">
-                                    <li>Tags</li>
-                                    <li>
-                                        <a href="#">#Business</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">#Magazine</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">#Lifestyle</a>
-                                    </li>
-                                </ul>
+                                <div id="KONTENnya">
+                                    <?= $this->renderSection('content') ?>
+                                </div> 
+                                <!-- END OF KONTEN -->
                                 <div class="post-share-area mb-40 item-shadow-1">
                                     <p>You can share this post!</p>
                                     <ul class="social-default item-inline">
@@ -372,7 +314,7 @@
                                 </div>
                                 <div class="author-info p-35-r mb-50 border-all">
                                     <div class="media media-none-xs">
-                                        <img src="img/author.jpg" alt="author" class="img-fluid rounded-circle">
+                                        <img src="<?= base_url() ?>/Njerone/img/author.jpg" alt="author" class="img-fluid rounded-circle">
                                         <div class="media-body pt-10 media-margin30">
                                             <h3 class="size-lg mb-5">Mark Willy</h3>
                                             <div class="post-by mb-5">By Admin</div>
@@ -413,7 +355,7 @@
                                     <ul>
                                         <li>
                                             <div class="media media-none-xs">
-                                                <img src="img/blog1.jpg" class="img-fluid rounded-circle" alt="comments">
+                                                <img src="<?= base_url() ?>/Njerone/img/blog1.jpg" class="img-fluid rounded-circle" alt="comments">
                                                 <div class="media-body comments-content media-margin30">
                                                     <h3 class="title-semibold-dark">
                                                         <a href="#">Nitiya ,
@@ -427,7 +369,7 @@
                                         </li>
                                         <li>
                                             <div class="media media-none-xs">
-                                                <img src="img/blog2.jpg" class="img-fluid rounded-circle" alt="comments">
+                                                <img src="<?= base_url() ?>/Njerone/img/blog2.jpg" class="img-fluid rounded-circle" alt="comments">
                                                 <div class="media-body comments-content media-margin30">
                                                     <h3 class="title-semibold-dark">
                                                         <a href="#">Fahim ,
@@ -510,7 +452,7 @@
                             <div class="sidebar-box">
                                 <div class="ne-banner-layout1 text-center">
                                     <a href="#">
-                                        <img src="img/banner/banner3.jpg" alt="ad" class="img-fluid">
+                                        <img src="<?= base_url() ?>/Njerone/img/banner/banner3.jpg" alt="ad" class="img-fluid">
                                     </a>
                                 </div>
                             </div>
@@ -525,7 +467,7 @@
                                                 <div class="topic-box-sm color-cod-gray mb-20">Nature</div>
                                             </div>
                                             <a href="single-news-1.html" class="mb-10 display-block img-opacity-hover">
-                                                <img src="img/news/news171.jpg" alt="ad" class="img-fluid m-auto width-100">
+                                                <img src="<?= base_url() ?>/Njerone/img/news/news171.jpg" alt="ad" class="img-fluid m-auto width-100">
                                             </a>
                                             <h3 class="title-medium-dark size-md mb-none">
                                                 <a href="single-news-1.html">Rosie Huntington Whitl Habits Career Art.Rosie TBeauty Habits.</a>
@@ -538,7 +480,7 @@
                                                 <div class="topic-box-sm color-cod-gray mb-20">Application</div>
                                             </div>
                                             <a href="single-news-1.html" class="mb-10 display-block img-opacity-hover">
-                                                <img src="img/news/news172.jpg" alt="ad" class="img-fluid m-auto width-100">
+                                                <img src="<?= base_url() ?>/Njerone/img/news/news172.jpg" alt="ad" class="img-fluid m-auto width-100">
                                             </a>
                                             <h3 class="title-medium-dark size-md mb-none">
                                                 <a href="single-news-1.html">Rosie Huntington Whitl Habits Career Art.Rosie TBeauty Habits.</a>
@@ -551,7 +493,7 @@
                                                 <div class="topic-box-sm color-cod-gray mb-20">Life Style</div>
                                             </div>
                                             <a href="single-news-1.html" class="mb-10 display-block img-opacity-hover">
-                                                <img src="img/news/news173.jpg" alt="ad" class="img-fluid m-auto width-100">
+                                                <img src="<?= base_url() ?>/Njerone/img/news/news173.jpg" alt="ad" class="img-fluid m-auto width-100">
                                             </a>
                                             <h3 class="title-medium-dark size-md mb-none">
                                                 <a href="single-news-1.html">Rosie Huntington Whitl Habits Career Art.Rosie TBeauty Habits.</a>
@@ -564,7 +506,7 @@
                                                 <div class="topic-box-sm color-cod-gray mb-20">Technology</div>
                                             </div>
                                             <a href="single-news-1.html" class="mb-10 display-block img-opacity-hover">
-                                                <img src="img/news/news174.jpg" alt="ad" class="img-fluid m-auto width-100">
+                                                <img src="<?= base_url() ?>/Njerone/img/news/news174.jpg" alt="ad" class="img-fluid m-auto width-100">
                                             </a>
                                             <h3 class="title-medium-dark size-md mb-none">
                                                 <a href="single-news-1.html">Rosie Huntington Whitl Habits Career Art.Rosie TBeauty Habits.</a>
@@ -577,7 +519,7 @@
                                                 <div class="topic-box-sm color-cod-gray mb-20">Accessories</div>
                                             </div>
                                             <a href="single-news-1.html" class="mb-10 display-block img-opacity-hover">
-                                                <img src="img/news/news175.jpg" alt="ad" class="img-fluid m-auto width-100">
+                                                <img src="<?= base_url() ?>/Njerone/img/news/news175.jpg" alt="ad" class="img-fluid m-auto width-100">
                                             </a>
                                             <h3 class="title-medium-dark size-md mb-none">
                                                 <a href="single-news-1.html">Rosie Huntington Whitl Habits Career Art.Rosie TBeauty Habits.</a>
@@ -590,7 +532,7 @@
                                                 <div class="topic-box-sm color-cod-gray mb-20">Model</div>
                                             </div>
                                             <a href="single-news-1.html" class="mb-10 display-block img-opacity-hover">
-                                                <img src="img/news/news176.jpg" alt="ad" class="img-fluid m-auto width-100">
+                                                <img src="<?= base_url() ?>/Njerone/img/news/news176.jpg" alt="ad" class="img-fluid m-auto width-100">
                                             </a>
                                             <h3 class="title-medium-dark size-md mb-none">
                                                 <a href="single-news-1.html">Rosie Huntington Whitl Habits Career Art.Rosie TBeauty Habits.</a>
@@ -605,7 +547,7 @@
                                 </div>
                                 <div class="newsletter-area bg-primary">
                                     <h2 class="title-medium-light size-xl pl-30 pr-30">Subscribe to our mailing list to get the new updates!</h2>
-                                    <img src="img/banner/newsletter.png" alt="newsletter" class="img-fluid m-auto mb-15">
+                                    <img src="<?= base_url() ?>/Njerone/img/banner/newsletter.png" alt="newsletter" class="img-fluid m-auto mb-15">
                                     <p>Subscribe our newsletter to stay updated</p>
                                     <div class="input-group stylish-input-group">
                                         <input type="text" placeholder="Enter your mail" class="form-control">
@@ -661,7 +603,7 @@
                                     </div>
                                     <div class="media">
                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                            <img src="img/news/news117.jpg" alt="news" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/news/news117.jpg" alt="news" class="img-fluid">
                                         </a>
                                         <div class="media-body">
                                             <div class="post-date-dark">
@@ -684,7 +626,7 @@
                                     </div>
                                     <div class="media">
                                         <a class="img-opacity-hover" href="single-news-2.html">
-                                            <img src="img/news/news118.jpg" alt="news" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/news/news118.jpg" alt="news" class="img-fluid">
                                         </a>
                                         <div class="media-body">
                                             <div class="post-date-dark">
@@ -707,7 +649,7 @@
                                     </div>
                                     <div class="media">
                                         <a class="img-opacity-hover" href="single-news-3.html">
-                                            <img src="img/news/news119.jpg" alt="news" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/news/news119.jpg" alt="news" class="img-fluid">
                                         </a>
                                         <div class="media-body">
                                             <div class="post-date-dark">
@@ -730,7 +672,7 @@
                                     </div>
                                     <div class="media">
                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                            <img src="img/news/news120.jpg" alt="news" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/news/news120.jpg" alt="news" class="img-fluid">
                                         </a>
                                         <div class="media-body">
                                             <div class="post-date-dark">
@@ -753,7 +695,7 @@
                                     </div>
                                     <div class="media">
                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                            <img src="img/news/news121.jpg" alt="news" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/news/news121.jpg" alt="news" class="img-fluid">
                                         </a>
                                         <div class="media-body">
                                             <div class="post-date-dark">
@@ -788,7 +730,7 @@
                                         <li>
                                             <div class="media">
                                                 <a href="post-style-1.html">
-                                                    <img src="img/footer/post1.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post1.jpg" alt="post" class="img-fluid">
                                                 </a>
                                                 <div class="media-body">
                                                     <h3 class="title-medium-light size-md mb-10">
@@ -808,7 +750,7 @@
                                         <li>
                                             <div class="media">
                                                 <a href="post-style-2.html">
-                                                    <img src="img/footer/post2.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post2.jpg" alt="post" class="img-fluid">
                                                 </a>
                                                 <div class="media-body">
                                                     <h3 class="title-medium-light size-md mb-10">
@@ -828,7 +770,7 @@
                                         <li>
                                             <div class="media">
                                                 <a href="post-style-3.html">
-                                                    <img src="img/footer/post3.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post3.jpg" alt="post" class="img-fluid">
                                                 </a>
                                                 <div class="media-body">
                                                     <h3 class="title-medium-light size-md mb-10">
@@ -902,63 +844,63 @@
                                         <li>
                                             <a href="gallery-style1.html">
                                                 <figure>
-                                                    <img src="img/footer/post4.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post4.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style2.html">
                                                 <figure>
-                                                    <img src="img/footer/post5.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post5.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style1.html">
                                                 <figure>
-                                                    <img src="img/footer/post6.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post6.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style2.html">
                                                 <figure>
-                                                    <img src="img/footer/post7.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post7.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style1.html">
                                                 <figure>
-                                                    <img src="img/footer/post8.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post8.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style2.html">
                                                 <figure>
-                                                    <img src="img/footer/post9.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post9.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style1.html">
                                                 <figure>
-                                                    <img src="img/footer/post10.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post10.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style2.html">
                                                 <figure>
-                                                    <img src="img/footer/post11.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post11.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style1.html">
                                                 <figure>
-                                                    <img src="img/footer/post12.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post12.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
@@ -973,7 +915,7 @@
                         <div class="row">
                             <div class="col-12 text-center">
                                 <a href="index.html" class="footer-logo img-fluid">
-                                    <img src="img/logo.png" alt="logo" class="img-fluid">
+                                    <img src="<?= base_url() ?>/Njerone/img/logo.png" alt="logo" class="img-fluid">
                                 </a>
                                 <ul class="footer-social">
                                     <li>
@@ -1179,33 +1121,33 @@
         </div>
         <!-- Wrapper End -->
         <!-- jquery-->
-        <script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/jquery-2.2.4.min.js" type="text/javascript"></script>
         <!-- Plugins js -->
-        <script src="js/plugins.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/plugins.js" type="text/javascript"></script>
         <!-- Popper js -->
-        <script src="js/popper.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/popper.js" type="text/javascript"></script>
         <!-- Bootstrap js -->
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/bootstrap.min.js" type="text/javascript"></script>
         <!-- WOW JS -->
-        <script src="js/wow.min.js"></script>
+        <script src="<?= base_url() ?>/Njerone/js/wow.min.js"></script>
         <!-- Owl Cauosel JS -->
-        <script src="vendor/OwlCarousel/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/vendor/OwlCarousel/owl.carousel.min.js" type="text/javascript"></script>
         <!-- Meanmenu Js -->
-        <script src="js/jquery.meanmenu.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/jquery.meanmenu.min.js" type="text/javascript"></script>
         <!-- Srollup js -->
-        <script src="js/jquery.scrollUp.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/jquery.scrollUp.min.js" type="text/javascript"></script>
         <!-- jquery.counterup js -->
-        <script src="js/jquery.counterup.min.js"></script>
-        <script src="js/waypoints.min.js"></script>
+        <script src="<?= base_url() ?>/Njerone/js/jquery.counterup.min.js"></script>
+        <script src="<?= base_url() ?>/Njerone/js/waypoints.min.js"></script>
 
         <!-- Isotope js -->
-        <script src="js/isotope.pkgd.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/isotope.pkgd.min.js" type="text/javascript"></script>
         <!-- Magnific Popup -->
-        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="<?= base_url() ?>/Njerone/js/jquery.magnific-popup.min.js"></script>
         <!-- Ticker Js -->
-        <script src="js/ticker.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/ticker.js" type="text/javascript"></script>
         <!-- Custom Js -->
-        <script src="js/main.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/main.js" type="text/javascript"></script>
     </body>
 
 

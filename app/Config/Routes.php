@@ -56,6 +56,10 @@ $routes->get('/coba/(:any)/(:num)','Coba::about/$1/$2');
 // ==== BUG KALAU :any || HARUS BUAT ROUTE CONTROLLER MANUAL ======//
 $routes->get('/coba/index','Coba::index');
 $routes->get('/coba/about','Coba::about');
+$routes->post('/coba/unggahgambar','Coba::unggahgambar');
+$routes->post('/coba/uploadck5','Coba::uploadck5');
+$routes->post('/coba/simpan','Coba::simpan');
+$routes->post('/coba/insert','Coba::insert');
 
 // ==== ROUTE UNTUK CONTROLLER DLAM FOLDER =====//
 $routes->get('/users','Admin\Users::index');

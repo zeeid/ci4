@@ -8,35 +8,36 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="Njerone/img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="<?= base_url() ?>/Njerone/img/favicon.png">
         <!-- Normalize CSS -->
-        <link rel="stylesheet" href="Njerone/css/normalize.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/normalize.css">
         <!-- Main CSS -->
-        <link rel="stylesheet" href="Njerone/css/main.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/main.css">
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="Njerone/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/bootstrap.min.css">
         <!-- Animate CSS -->
-        <link rel="stylesheet" href="Njerone/css/animate.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/animate.min.css">
         <!-- Font-awesome CSS-->
-        <link rel="stylesheet" href="Njerone/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/font-awesome.min.css">
         <!-- Owl Caousel CSS -->
-        <link rel="stylesheet" href="Njerone/vendor/OwlCarousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="Njerone/vendor/OwlCarousel/owl.theme.default.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/vendor/OwlCarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/vendor/OwlCarousel/owl.theme.default.min.css">
         <!-- Main Menu CSS -->
-        <link rel="stylesheet" href="Njerone/css/meanmenu.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/meanmenu.min.css">
         <!-- Magnific CSS -->
-        <link rel="stylesheet" type="text/css" href="Njerone/css/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/Njerone/css/magnific-popup.css">
         <!-- Switch Style CSS -->
-        <link rel="stylesheet" href="Njerone/css/hover-min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/css/hover-min.css">
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="Njerone/style.css">
+        <link rel="stylesheet" href="<?= base_url() ?>/Njerone/style.css">
         <!-- For IE -->
-        <link rel="stylesheet" type="text/css" href="Njerone/css/ie-only.css" />
+        <link rel="stylesheet" type="text/css" href="<?= base_url() ?>/Njerone/css/ie-only.css" />
         <!-- Modernizr Js -->
-        <script src="Njerone/js/modernizr-2.8.3.min.js"></script>
+        <script src="<?= base_url() ?>/Njerone/js/modernizr-2.8.3.min.js"></script>
     </head>
 
     <body>
+    <input type="hidden" id="base_url_js" value="<?=base_url("Njerone/")?>">
         <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an 
         <strong>outdated</strong> browser. Please 
@@ -115,14 +116,14 @@
                                     <div class="col-lg-4 col-md-4 col-sm-4">
                                         <div class="logo-area">
                                             <a href="index.html" class="img-fluid">
-                                                <img src="Njerone/img/logo-dark.png" alt="logo">
+                                                <img src="<?= base_url() ?>/Njerone/img/logo-dark.png" alt="logo">
                                             </a>
                                         </div>
                                     </div>
                                     <div class="col-lg-8 col-md-8 col-sm-8">
                                         <div class="ne-banner-layout1 pull-right">
                                             <a href="#">
-                                                <img src="Njerone/img/banner/banner2.jpg" alt="ad" class="img-fluid">
+                                                <img src="<?= base_url() ?>/Njerone/img/banner/banner2.jpg" alt="ad" class="img-fluid">
                                             </a>
                                         </div>
                                     </div>
@@ -302,7 +303,7 @@
                     <div class="row tab-space2">
                         <div class="col-md-8 col-sm-12 mb-4">
                             <div class="img-overlay-70 img-scale-animate">
-                                <img src="Njerone/img/news/news73.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news73.jpg" alt="news" class="img-fluid width-100">
                                 <div class="mask-content-lg">
                                     <div class="topic-box-sm color-cinnabar mb-20">Politics</div>
                                     <div class="post-date-light">
@@ -331,7 +332,7 @@
                                         <a href="single-news-3.html">Travel ficen Image mar shaper dam bridge taking</a>
                                     </h3>
                                 </div>
-                                <img src="Njerone/img/news/news74.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news74.jpg" alt="news" class="img-fluid width-100">
                             </div>
                             <div class="img-overlay-70 img-scale-animate mb-4">
                                 <div class="mask-content-sm">
@@ -340,7 +341,7 @@
                                         <a href="single-news-1.html">Magnificent Image shaper dam bridge taking</a>
                                     </h3>
                                 </div>
-                                <img src="Njerone/img/news/news75.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news75.jpg" alt="news" class="img-fluid width-100">
                             </div>
                         </div>
                     </div>
@@ -373,7 +374,7 @@
                                         <div class="col-xl-4 col-lg-5 col-md-12 mb-30">
                                             <div class="img-overlay-70 img-scale-animate">
                                                 <a href="single-news-1.html">
-                                                    <img src="Njerone/img/news/news76.jpg" alt="news" class="img-fluid width-100">
+                                                    <img src="<?= base_url() ?>/Njerone/img/news/news76.jpg" alt="news" class="img-fluid width-100">
                                                 </a>
                                                 <div class="mask-content-lg">
                                                     <div class="topic-box-sm color-apple mb-20">Fashion</div>
@@ -400,7 +401,7 @@
                                                 <div class="col-sm-6 col-12">
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news77.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news77.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -418,7 +419,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news78.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news78.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -436,7 +437,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news79.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news79.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -456,7 +457,7 @@
                                                 <div class="col-sm-6 col-12">
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news80.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news80.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -474,7 +475,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news81.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news81.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -492,7 +493,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news82.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news82.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -516,7 +517,7 @@
                                         <div class="col-xl-4 col-lg-5 col-md-12 mb-30">
                                             <div class="img-overlay-70 img-scale-animate">
                                                 <a href="single-news-1.html">
-                                                    <img src="Njerone/img/news/news76.jpg" alt="news" class="img-fluid width-100">
+                                                    <img src="<?= base_url() ?>/Njerone/img/news/news76.jpg" alt="news" class="img-fluid width-100">
                                                 </a>
                                                 <div class="mask-content-lg">
                                                     <div class="topic-box-sm color-apple mb-20">Fashion</div>
@@ -543,7 +544,7 @@
                                                 <div class="col-sm-6 col-12">
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news77.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news77.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -561,7 +562,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news78.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news78.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -579,7 +580,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news79.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news79.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -599,7 +600,7 @@
                                                 <div class="col-sm-6 col-12">
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news80.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news80.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -617,7 +618,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news81.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news81.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -635,7 +636,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news82.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news82.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -659,7 +660,7 @@
                                         <div class="col-xl-4 col-lg-5 col-md-12 mb-30">
                                             <div class="img-overlay-70 img-scale-animate">
                                                 <a href="single-news-1.html">
-                                                    <img src="Njerone/img/news/news76.jpg" alt="news" class="img-fluid width-100">
+                                                    <img src="<?= base_url() ?>/Njerone/img/news/news76.jpg" alt="news" class="img-fluid width-100">
                                                 </a>
                                                 <div class="mask-content-lg">
                                                     <div class="topic-box-sm color-apple mb-20">Fashion</div>
@@ -686,7 +687,7 @@
                                                 <div class="col-sm-6 col-12">
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news77.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news77.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -704,7 +705,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news78.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news78.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -722,7 +723,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news79.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news79.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -742,7 +743,7 @@
                                                 <div class="col-sm-6 col-12">
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news80.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news80.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -760,7 +761,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news81.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news81.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -778,7 +779,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news82.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news82.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -802,7 +803,7 @@
                                         <div class="col-xl-4 col-lg-5 col-md-12 mb-30">
                                             <div class="img-overlay-70 img-scale-animate">
                                                 <a href="single-news-1.html">
-                                                    <img src="Njerone/img/news/news76.jpg" alt="news" class="img-fluid width-100">
+                                                    <img src="<?= base_url() ?>/Njerone/img/news/news76.jpg" alt="news" class="img-fluid width-100">
                                                 </a>
                                                 <div class="mask-content-lg">
                                                     <div class="topic-box-sm color-apple mb-20">Fashion</div>
@@ -829,7 +830,7 @@
                                                 <div class="col-sm-6 col-12">
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news77.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news77.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -847,7 +848,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news78.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news78.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -865,7 +866,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news79.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news79.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -885,7 +886,7 @@
                                                 <div class="col-sm-6 col-12">
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news80.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news80.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -903,7 +904,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news81.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news81.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -921,7 +922,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news82.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news82.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -945,7 +946,7 @@
                                         <div class="col-xl-4 col-lg-5 col-md-12 mb-30">
                                             <div class="img-overlay-70 img-scale-animate">
                                                 <a href="single-news-1.html">
-                                                    <img src="Njerone/img/news/news76.jpg" alt="news" class="img-fluid width-100">
+                                                    <img src="<?= base_url() ?>/Njerone/img/news/news76.jpg" alt="news" class="img-fluid width-100">
                                                 </a>
                                                 <div class="mask-content-lg">
                                                     <div class="topic-box-sm color-apple mb-20">Fashion</div>
@@ -972,7 +973,7 @@
                                                 <div class="col-sm-6 col-12">
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news77.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news77.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -990,7 +991,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news78.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news78.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -1008,7 +1009,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news79.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news79.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -1028,7 +1029,7 @@
                                                 <div class="col-sm-6 col-12">
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news80.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news80.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -1046,7 +1047,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news81.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news81.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -1064,7 +1065,7 @@
                                                     </div>
                                                     <div class="media bg-body item-shadow-gray mb-30">
                                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                                            <img src="Njerone/img/news/news82.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news82.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="media-body media-padding10">
                                                             <div class="post-date-dark">
@@ -1092,7 +1093,7 @@
                         <div class="col-12">
                             <div class="ne-banner-layout1 mt-20-r text-center">
                                 <a href="#">
-                                    <img src="Njerone/img/banner/banner2.jpg" alt="ad" class="img-fluid">
+                                    <img src="<?= base_url() ?>/Njerone/img/banner/banner2.jpg" alt="ad" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -1111,7 +1112,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-12 mb-30">
                                     <div class="img-overlay-70 img-scale-animate">
-                                        <img src="Njerone/img/news/news69.jpg" alt="news" class="img-fluid width-100">
+                                        <img src="<?= base_url() ?>/Njerone/img/news/news69.jpg" alt="news" class="img-fluid width-100">
                                     </div>
                                     <ul class="item-box-light-mix item-shadow-gray">
                                         <li>
@@ -1132,7 +1133,7 @@
                                 <div class="col-md-6 col-sm-12">
                                     <div class="media bg-body item-shadow-gray mb-30">
                                         <a class="img-opacity-hover width34-lg width30-md" href="single-news-1.html">
-                                            <img src="Njerone/img/news/news70.jpg" alt="news" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/news/news70.jpg" alt="news" class="img-fluid">
                                         </a>
                                         <div class="media-body media-padding15">
                                             <div class="post-date-dark">
@@ -1150,7 +1151,7 @@
                                     </div>
                                     <div class="media bg-body item-shadow-gray mb-30">
                                         <a class="img-opacity-hover width34-lg width30-md" href="single-news-2.html">
-                                            <img src="Njerone/img/news/news71.jpg" alt="news" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/news/news71.jpg" alt="news" class="img-fluid">
                                         </a>
                                         <div class="media-body media-padding15">
                                             <div class="post-date-dark">
@@ -1168,7 +1169,7 @@
                                     </div>
                                     <div class="media bg-body item-shadow-gray mb-30">
                                         <a class="img-opacity-hover width34-lg width30-md" href="single-news-3.html">
-                                            <img src="Njerone/img/news/news72.jpg" alt="news" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/news/news72.jpg" alt="news" class="img-fluid">
                                         </a>
                                         <div class="media-body media-padding15">
                                             <div class="post-date-dark">
@@ -1226,7 +1227,7 @@
                             <div class="sidebar-box">
                                 <div class="ne-banner-layout1 text-center">
                                     <a href="#">
-                                        <img src="Njerone/img/banner/banner11.jpg" alt="ad" class="img-fluid">
+                                        <img src="<?= base_url() ?>/Njerone/img/banner/banner11.jpg" alt="ad" class="img-fluid">
                                     </a>
                                 </div>
                             </div>
@@ -1252,10 +1253,10 @@
                         data-r-medium-nav="true" data-r-medium-dots="false" data-r-Large="4" data-r-Large-nav="true" data-r-Large-dots="false">
                         <div class="hover-show-play-btn item-shadow-gray mb-30">
                             <div class="img-overlay-70">
-                                <img src="Njerone/img/news/news83.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news83.jpg" alt="news" class="img-fluid width-100">
                                 <div class="text-center">
                                     <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=1iIZeIy7TqM">
-                                        <img src="Njerone/img/banner/play.png" alt="play" class="img-fluid">
+                                        <img src="<?= base_url() ?>/Njerone/img/banner/play.png" alt="play" class="img-fluid">
                                     </a>
                                 </div>
                             </div>
@@ -1275,10 +1276,10 @@
                         </div>
                         <div class="hover-show-play-btn item-shadow-gray mb-30">
                             <div class="img-overlay-70">
-                                <img src="Njerone/img/news/news84.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news84.jpg" alt="news" class="img-fluid width-100">
                                 <div class="text-center">
                                     <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=1iIZeIy7TqM">
-                                        <img src="Njerone/img/banner/play.png" alt="play" class="img-fluid">
+                                        <img src="<?= base_url() ?>/Njerone/img/banner/play.png" alt="play" class="img-fluid">
                                     </a>
                                 </div>
                             </div>
@@ -1298,10 +1299,10 @@
                         </div>
                         <div class="hover-show-play-btn item-shadow-gray mb-30">
                             <div class="img-overlay-70">
-                                <img src="Njerone/img/news/news85.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news85.jpg" alt="news" class="img-fluid width-100">
                                 <div class="text-center">
                                     <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=1iIZeIy7TqM">
-                                        <img src="Njerone/img/banner/play.png" alt="play" class="img-fluid">
+                                        <img src="<?= base_url() ?>/Njerone/img/banner/play.png" alt="play" class="img-fluid">
                                     </a>
                                 </div>
                             </div>
@@ -1321,10 +1322,10 @@
                         </div>
                         <div class="hover-show-play-btn item-shadow-gray mb-30">
                             <div class="img-overlay-70">
-                                <img src="Njerone/img/news/news86.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news86.jpg" alt="news" class="img-fluid width-100">
                                 <div class="text-center">
                                     <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=1iIZeIy7TqM">
-                                        <img src="Njerone/img/banner/play.png" alt="play" class="img-fluid">
+                                        <img src="<?= base_url() ?>/Njerone/img/banner/play.png" alt="play" class="img-fluid">
                                     </a>
                                 </div>
                             </div>
@@ -1344,10 +1345,10 @@
                         </div>
                         <div class="hover-show-play-btn item-shadow-gray mb-30">
                             <div class="img-overlay-70">
-                                <img src="Njerone/img/news/news83.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news83.jpg" alt="news" class="img-fluid width-100">
                                 <div class="text-center">
                                     <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=1iIZeIy7TqM">
-                                        <img src="Njerone/img/banner/play.png" alt="play" class="img-fluid">
+                                        <img src="<?= base_url() ?>/Njerone/img/banner/play.png" alt="play" class="img-fluid">
                                     </a>
                                 </div>
                             </div>
@@ -1395,7 +1396,7 @@
                                         <a href="single-news-3.html">Not who has much is rich, but who gives much</a>
                                     </h3>
                                 </div>
-                                <img src="Njerone/img/news/news66.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news66.jpg" alt="news" class="img-fluid width-100">
                             </div>
                             <ul class="border-bottom-child p-20-r h3-mb-none-child bg-body item-shadow-gray">
                                 <li>
@@ -1461,7 +1462,7 @@
                                         <a href="single-news-3.html">Oppo Find 7 is the world need first phone that can take</a>
                                     </h3>
                                 </div>
-                                <img src="Njerone/img/news/news67.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news67.jpg" alt="news" class="img-fluid width-100">
                             </div>
                             <ul class="border-bottom-child p-20-r h3-mb-none-child bg-body item-shadow-gray">
                                 <li>
@@ -1527,7 +1528,7 @@
                                         <a href="single-news-3.html">Tacos ditched the naked chicken here's how to make …</a>
                                     </h3>
                                 </div>
-                                <img src="Njerone/img/news/news68.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news68.jpg" alt="news" class="img-fluid width-100">
                             </div>
                             <ul class="border-bottom-child p-20-r h3-mb-none-child bg-body item-shadow-gray">
                                 <li>
@@ -1576,7 +1577,7 @@
                         <div class="col-12">
                             <div class="ne-banner-layout1 mt-20-r text-center">
                                 <a href="#">
-                                    <img src="Njerone/img/banner/banner2.jpg" alt="ad" class="img-fluid">
+                                    <img src="<?= base_url() ?>/Njerone/img/banner/banner2.jpg" alt="ad" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -1598,10 +1599,10 @@
                                 </div>
                                 <div class="text-center">
                                     <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=1iIZeIy7TqM">
-                                        <img src="Njerone/img/banner/play.png" alt="play" class="img-fluid">
+                                        <img src="<?= base_url() ?>/Njerone/img/banner/play.png" alt="play" class="img-fluid">
                                     </a>
                                 </div>
-                                <img src="Njerone/img/news/news61.jpg" alt="news" class="img-fluid width-100">
+                                <img src="<?= base_url() ?>/Njerone/img/news/news61.jpg" alt="news" class="img-fluid width-100">
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-12">
@@ -1616,10 +1617,10 @@
                                         </div>
                                         <div class="text-center">
                                             <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=1iIZeIy7TqM">
-                                                <img src="Njerone/img/banner/play.png" alt="play" class="img-fluid">
+                                                <img src="<?= base_url() ?>/Njerone/img/banner/play.png" alt="play" class="img-fluid">
                                             </a>
                                         </div>
-                                        <img src="Njerone/img/news/news62.jpg" alt="news" class="img-fluid width-100">
+                                        <img src="<?= base_url() ?>/Njerone/img/news/news62.jpg" alt="news" class="img-fluid width-100">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-12 mb-4">
@@ -1632,10 +1633,10 @@
                                         </div>
                                         <div class="text-center">
                                             <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=1iIZeIy7TqM">
-                                                <img src="Njerone/img/banner/play.png" alt="play" class="img-fluid">
+                                                <img src="<?= base_url() ?>/Njerone/img/banner/play.png" alt="play" class="img-fluid">
                                             </a>
                                         </div>
-                                        <img src="Njerone/img/news/news63.jpg" alt="news" class="img-fluid width-100">
+                                        <img src="<?= base_url() ?>/Njerone/img/news/news63.jpg" alt="news" class="img-fluid width-100">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-12 mb-4">
@@ -1648,10 +1649,10 @@
                                         </div>
                                         <div class="text-center">
                                             <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=1iIZeIy7TqM">
-                                                <img src="Njerone/img/banner/play.png" alt="play" class="img-fluid">
+                                                <img src="<?= base_url() ?>/Njerone/img/banner/play.png" alt="play" class="img-fluid">
                                             </a>
                                         </div>
-                                        <img src="Njerone/img/news/news64.jpg" alt="news" class="img-fluid width-100">
+                                        <img src="<?= base_url() ?>/Njerone/img/news/news64.jpg" alt="news" class="img-fluid width-100">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-12 mb-4">
@@ -1664,10 +1665,10 @@
                                         </div>
                                         <div class="text-center">
                                             <a class="play-btn popup-youtube" href="http://www.youtube.com/watch?v=1iIZeIy7TqM">
-                                                <img src="Njerone/img/banner/play.png" alt="play" class="img-fluid">
+                                                <img src="<?= base_url() ?>/Njerone/img/banner/play.png" alt="play" class="img-fluid">
                                             </a>
                                         </div>
-                                        <img src="Njerone/img/news/news65.jpg" alt="news" class="img-fluid width-100">
+                                        <img src="<?= base_url() ?>/Njerone/img/news/news65.jpg" alt="news" class="img-fluid width-100">
                                     </div>
                                 </div>
                             </div>
@@ -1704,7 +1705,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news53.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news53.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Football</div>
@@ -1736,7 +1737,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news54.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news54.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Diving</div>
@@ -1768,7 +1769,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news55.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news55.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Cycling</div>
@@ -1802,7 +1803,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news56.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news56.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Football</div>
@@ -1838,7 +1839,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news55.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news55.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Cycling</div>
@@ -1872,7 +1873,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news53.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news53.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Football</div>
@@ -1904,7 +1905,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news54.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news54.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Diving</div>
@@ -1936,7 +1937,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news56.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news56.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Football</div>
@@ -1972,7 +1973,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news56.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news56.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Football</div>
@@ -2004,7 +2005,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news53.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news53.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Football</div>
@@ -2036,7 +2037,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news54.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news54.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Diving</div>
@@ -2068,7 +2069,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news55.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news55.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Cycling</div>
@@ -2106,7 +2107,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news55.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news55.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Cycling</div>
@@ -2140,7 +2141,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news53.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news53.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Football</div>
@@ -2172,7 +2173,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news54.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news54.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Diving</div>
@@ -2204,7 +2205,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news56.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news56.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Football</div>
@@ -2240,7 +2241,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news54.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news54.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Diving</div>
@@ -2272,7 +2273,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news53.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news53.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Football</div>
@@ -2304,7 +2305,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news55.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news55.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Cycling</div>
@@ -2338,7 +2339,7 @@
                                                 <div class="media item-shadow-gray bg-body media-none--sm">
                                                     <div class="position-relative width-36 width43-lg">
                                                         <a href="single-news-1.html" class="img-opacity-hover img-overlay-70">
-                                                            <img src="Njerone/img/news/news56.jpg" alt="news" class="img-fluid">
+                                                            <img src="<?= base_url() ?>/Njerone/img/news/news56.jpg" alt="news" class="img-fluid">
                                                         </a>
                                                         <div class="topic-box-top-xs">
                                                             <div class="topic-box-sm color-cod-gray mb-20">Football</div>
@@ -2379,7 +2380,7 @@
                                 <div class="d-inline-block">
                                     <div class="media mb30-list bg-body">
                                         <a class="img-opacity-hover" href="single-news-1.html">
-                                            <img src="Njerone/img/news/news57.jpg" alt="news" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/news/news57.jpg" alt="news" class="img-fluid">
                                         </a>
                                         <div class="media-body media-padding15">
                                             <div class="post-date-dark">
@@ -2397,7 +2398,7 @@
                                     </div>
                                     <div class="media mb30-list bg-body">
                                         <a class="img-opacity-hover" href="single-news-2.html">
-                                            <img src="Njerone/img/news/news58.jpg" alt="news" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/news/news58.jpg" alt="news" class="img-fluid">
                                         </a>
                                         <div class="media-body media-padding15">
                                             <div class="post-date-dark">
@@ -2415,7 +2416,7 @@
                                     </div>
                                     <div class="media mb30-list bg-body">
                                         <a class="img-opacity-hover" href="single-news-3.html">
-                                            <img src="Njerone/img/news/news59.jpg" alt="news" class="img-fluid">
+                                            <img src="<?= base_url() ?>/Njerone/img/news/news59.jpg" alt="news" class="img-fluid">
                                         </a>
                                         <div class="media-body media-padding15">
                                             <div class="post-date-dark">
@@ -2439,7 +2440,7 @@
                                 </div>
                                 <div class="newsletter-area bg-primary">
                                     <h2 class="title-medium-light size-xl line-height-custom">Subscribe to our mailing list to get the new updates!</h2>
-                                    <img src="Njerone/img/banner/newsletter.png" alt="newsletter" class="img-fluid mb-10">
+                                    <img src="<?= base_url() ?>/Njerone/img/banner/newsletter.png" alt="newsletter" class="img-fluid mb-10">
                                     <p>Subscribe our newsletter to stay updated</p>
                                     <div class="input-group stylish-input-group">
                                         <input type="text" placeholder="Enter your mail" class="form-control">
@@ -2468,7 +2469,7 @@
                                         <li>
                                             <div class="media">
                                                 <a href="post-style-1.html">
-                                                    <img src="Njerone/img/footer/post1.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post1.jpg" alt="post" class="img-fluid">
                                                 </a>
                                                 <div class="media-body">
                                                     <h3 class="title-medium-light size-md mb-10">
@@ -2488,7 +2489,7 @@
                                         <li>
                                             <div class="media">
                                                 <a href="post-style-2.html">
-                                                    <img src="Njerone/img/footer/post2.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post2.jpg" alt="post" class="img-fluid">
                                                 </a>
                                                 <div class="media-body">
                                                     <h3 class="title-medium-light size-md mb-10">
@@ -2508,7 +2509,7 @@
                                         <li>
                                             <div class="media">
                                                 <a href="post-style-3.html">
-                                                    <img src="Njerone/img/footer/post3.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post3.jpg" alt="post" class="img-fluid">
                                                 </a>
                                                 <div class="media-body">
                                                     <h3 class="title-medium-light size-md mb-10">
@@ -2582,63 +2583,63 @@
                                         <li>
                                             <a href="gallery-style1.html">
                                                 <figure>
-                                                    <img src="Njerone/img/footer/post4.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post4.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style2.html">
                                                 <figure>
-                                                    <img src="Njerone/img/footer/post5.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post5.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style1.html">
                                                 <figure>
-                                                    <img src="Njerone/img/footer/post6.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post6.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style2.html">
                                                 <figure>
-                                                    <img src="Njerone/img/footer/post7.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post7.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style1.html">
                                                 <figure>
-                                                    <img src="Njerone/img/footer/post8.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post8.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style2.html">
                                                 <figure>
-                                                    <img src="Njerone/img/footer/post9.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post9.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style1.html">
                                                 <figure>
-                                                    <img src="Njerone/img/footer/post10.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post10.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style2.html">
                                                 <figure>
-                                                    <img src="Njerone/img/footer/post11.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post11.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="gallery-style1.html">
                                                 <figure>
-                                                    <img src="Njerone/img/footer/post12.jpg" alt="post" class="img-fluid">
+                                                    <img src="<?= base_url() ?>/Njerone/img/footer/post12.jpg" alt="post" class="img-fluid">
                                                 </figure>
                                             </a>
                                         </li>
@@ -2653,7 +2654,7 @@
                         <div class="row">
                             <div class="col-12 text-center">
                                 <a href="index.html" class="footer-logo img-fluid">
-                                    <img src="Njerone/img/logo.png" alt="logo" class="img-fluid">
+                                    <img src="<?= base_url() ?>/Njerone/img/logo.png" alt="logo" class="img-fluid">
                                 </a>
                                 <ul class="footer-social">
                                     <li>
@@ -2858,32 +2859,32 @@
             <!-- Offcanvas Menu End -->
         </div>
         <!-- jquery-->
-        <script src="Njerone/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/jquery-2.2.4.min.js" type="text/javascript"></script>
         <!-- Plugins js -->
-        <script src="Njerone/js/plugins.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/plugins.js" type="text/javascript"></script>
         <!-- Popper js -->
-        <script src="Njerone/js/popper.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/popper.js" type="text/javascript"></script>
         <!-- Bootstrap js -->
-        <script src="Njerone/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/bootstrap.min.js" type="text/javascript"></script>
         <!-- WOW JS -->
-        <script src="Njerone/js/wow.min.js"></script>
+        <script src="<?= base_url() ?>/Njerone/js/wow.min.js"></script>
         <!-- Owl Cauosel JS -->
-        <script src="Njerone/vendor/OwlCarousel/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/vendor/OwlCarousel/owl.carousel.min.js" type="text/javascript"></script>
         <!-- Meanmenu Js -->
-        <script src="Njerone/js/jquery.meanmenu.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/jquery.meanmenu.min.js" type="text/javascript"></script>
         <!-- Srollup js -->
-        <script src="Njerone/js/jquery.scrollUp.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/jquery.scrollUp.min.js" type="text/javascript"></script>
         <!-- jquery.counterup js -->
-        <script src="Njerone/js/jquery.counterup.min.js"></script>
-        <script src="Njerone/js/waypoints.min.js"></script>
+        <script src="<?= base_url() ?>/Njerone/js/jquery.counterup.min.js"></script>
+        <script src="<?= base_url() ?>/Njerone/js/waypoints.min.js"></script>
         <!-- Isotope js -->
-        <script src="Njerone/js/isotope.pkgd.min.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/isotope.pkgd.min.js" type="text/javascript"></script>
         <!-- Magnific Popup -->
-        <script src="Njerone/js/jquery.magnific-popup.min.js"></script>
+        <script src="<?= base_url() ?>/Njerone/js/jquery.magnific-popup.min.js"></script>
         <!-- Ticker Js -->
-        <script src="Njerone/js/ticker.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/ticker.js" type="text/javascript"></script>
         <!-- Custom Js -->
-        <script src="Njerone/js/main.js" type="text/javascript"></script>
+        <script src="<?= base_url() ?>/Njerone/js/main.js" type="text/javascript"></script>
     </body>
 
 </html>

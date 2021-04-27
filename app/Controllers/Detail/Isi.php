@@ -14,8 +14,12 @@ class Isi extends BaseController
 	public function isinya($url1=""){
 		
         $data = [
-            'title' => 'ABOUT',
             'title' => $url1,
+            'judul' => 'A10 Hdrenaline fuelled activities that will chase the post summer blues away',
+            'pembuat' => 'Mark WillyA',
+            'create_at' => 'Jan 10, 20171',
+            'tagnya' => 'APEL',
+            'konten' => 'isi KONTEN',
             'alamat'=>[
                 [
                     'tipe'=>'Rumah',
